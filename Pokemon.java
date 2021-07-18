@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Pokemon {
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     // 必要な変数データ型を用意する
     String pokemon;
     int hp, a, b, c, d, s, total;
