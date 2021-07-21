@@ -9,7 +9,7 @@ class Month {
     // 変数monthをint型で宣言する。
     int month;
 
-    // 最初にnew Scannerをメソッドを宣言
+    // 1番目の引数に入力ストリームを指定します。標準入力を指定する。
     Scanner stdIn = new Scanner(System.in);
     System.out.println("1 ~ 12で好きな数字を入力してください。");
     month = stdIn.nextInt();
